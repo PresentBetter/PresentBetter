@@ -1,16 +1,11 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
-// import HomePage from "./HomePage";
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import { Router } from "react-router-dom";
+import store from "../store";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-  }
+const App = () => {
+  return <div>Let's present this better</div>;
+};
 
-  render() {
-    return <div>SJ A NEWWBBB</div>;
-  }
-}
-
-const appDiv = document.getElementById("app");
-render(<App />, appDiv);
+export default App;
