@@ -10,4 +10,4 @@ class UserSerializer(serializers.ModelSerializer):
 class Recordings(serializers.ModelSerializer):
   class Meta:
     model = Recordings
-    fields = ('name' , 'created_at', 'user')
+    fields = ('name' , 'filler_words', 'created_at', 'user')
