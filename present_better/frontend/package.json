@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production",
-    "server": "python ../manage.py runserver",
+    "server": "python ../manage.py runserver 8080",
     "start-dev": "npm run server & npm run dev"
   },
   "keywords": [],
