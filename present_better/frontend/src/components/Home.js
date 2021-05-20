@@ -7,9 +7,10 @@ class Home extends React.Component {
 
   render() {
     return (
+      <div class="wrapper">
       <div>
-        <h1>PresentBetter</h1>
-        <p>Practice for your next interview</p>
+        <h1>HOME PAGE</h1>
+      </div>
       </div>
     );
   }

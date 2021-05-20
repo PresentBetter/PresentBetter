@@ -5,6 +5,7 @@ import { Link, withRouter } from "react-router-dom";
 const NavBar = (props) => {
   return (
     <div id="navbar">
+      <img class="logo" src="./static/css/images/logo.png"/>
       <nav>
         <Link to="/home">Home</Link>
         <Link to="/signin">Sign In</Link>

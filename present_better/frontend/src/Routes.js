@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { withRouter, Route, Switch, BrowserRouter } from "react-router-dom";
-import { Home, About } from "./components";
+import { Home, About, SignIn } from "./components";
 
 class Routes extends Component {
   constructor(props) {
@@ -14,6 +14,7 @@ class Routes extends Component {
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <Route path="/about" component={About} />
+        <Route exact path="/signin" component={SignIn} />
       </Switch>
     );
   }
