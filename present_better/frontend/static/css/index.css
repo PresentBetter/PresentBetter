@@ -1,6 +1,29 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background: url(images/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  width: 125px;
+  height: 80px;
+}
+
 /* html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
 } */
+
