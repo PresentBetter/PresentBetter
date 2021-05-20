@@ -8,5 +8,7 @@ class User(models.Model):
 
 class Recordings(models.Model):
   name = models.CharField('RecordingNo.', max_length = 225, unique = True)
+  # filler_words = models.CharField('FillerWords', max_length =225)
+  test = models.CharField(max_length = 225, default ='test')
   created_at = models.DateTimeField(auto_now_add = True)
   user = models.ForeignKey(User, on_delete= models.CASCADE)
