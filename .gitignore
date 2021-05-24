@@ -1,2 +1,6 @@
 pbvirtual/
 .vscode/
+bin
+.DS_store
+lib
+pyvenv.cfg
