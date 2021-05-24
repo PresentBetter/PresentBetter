@@ -4,15 +4,17 @@ import { Link, withRouter } from "react-router-dom";
 
 const NavBar = (props) => {
   return (
-    <div id="navbar">
+    <nav class="navbar">
       <img class="logo" src="./static/css/images/logo.png"/>
-      <nav>
+      {/* <nav class = "nav"> */}
+        <div class = "nav">
         <Link to="/home">Home</Link>
         <Link to="/signin">Sign In</Link>
         <Link to="/about">About Us</Link>
         {/* If Signed in then show these links */}
-      </nav>
-    </div>
+        </div>
+      {/* </nav> */}
+    </nav>
   );
 };
 

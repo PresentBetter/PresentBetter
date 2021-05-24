@@ -13,8 +13,8 @@ class Routes extends Component {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route path="/about" component={About} />
         <Route exact path="/signin" component={SignIn} />
+        <Route path="/about" component={About} />
       </Switch>
     );
   }
