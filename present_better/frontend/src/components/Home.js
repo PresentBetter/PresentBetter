@@ -1,4 +1,5 @@
 import React from "react";
+import { WebCam } from "../components";
 
 class Home extends React.Component {
   constructor() {
@@ -9,6 +10,7 @@ class Home extends React.Component {
     return (
       <div>
         <h1>HOME PAGE</h1>
+        <WebCam />
       </div>
     );
   }
