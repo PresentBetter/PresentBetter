@@ -27,9 +27,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 20vw;
+  width: 475px;
+  justify-content: space-evenly;
   font-size: 2rem;
   margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: rgb(71, 68, 99);
 }
 
 /* html,
