@@ -79,6 +79,8 @@ class WebCam extends Component {
           ref={(v) => {
             this.video = v;
           }}
+          autoplay = "true"
+          muted = "muted"
         >
           Video stream not available.
         </video>
